@@ -1,0 +1,35 @@
+<h1>All Articles for this App</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Show</th>
+            <th>Edit</th>
+            <th>Remove</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <% @articles.each do | article | %>
+            <tr>
+                <td>
+                    <%= article.title %>
+                </td>
+                <td>
+                    <%= article.description %>
+                </td>
+                <td>
+                    <a href="">Show</a>
+                </td>
+                <td>
+                    <a href="">Edit</a>
+                </td>
+                <td>
+                    <a href="">Delete</a>
+                </td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>
+
