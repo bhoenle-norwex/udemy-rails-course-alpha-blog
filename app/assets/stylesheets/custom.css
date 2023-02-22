@@ -1,0 +1,11 @@
+main > .container {
+    padding: 60px 15px 0;
+}
+
+#homeTile {
+    background-image: url('/assets/images/jumbo-copy.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 425px;
+}
