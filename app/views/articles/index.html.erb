@@ -1,37 +1,7 @@
-<h1>All Articles for this App</h1>
-<table>
-    <thead>
-        <tr>
-            <th>Title</th>
-            <th>Description</th>
-            <th>Show</th>
-            <th>Edit</th>
-            <th>Remove</th>
-        </tr>
-    </thead>
-    <tbody>
-
-        <% @articles.each do | article | %>
-            <tr>
-                <td>
-                    <%= article.title %>
-                </td>
-                <td>
-                    <%= article.description %>
-                </td>
-                <td>
-                    <%= link_to 'Show', article_path(article) %>
-                </td>
-                <td>
-                    <%= link_to 'Edit', edit_article_path(article) %>
-                </td>
-                <td>
-                    <%= link_to 'Delete', article_path(article), data: { turbo_method: :delete , turbo_confirm: 'Are you sure?' } %>
-                </td>
-            </tr>
-        <% end %>
-    </tbody>
-</table>
+<h1 class="text-center mt-4">Listing all Articles</h1>
+<% @articles.each do | article | %>
+    <%= render partial: 'articles/article_card', locals: { article: article } %>
+<% end %>
 <p>
     <%= link_to 'Create a new article', new_article_path %>
 </p>

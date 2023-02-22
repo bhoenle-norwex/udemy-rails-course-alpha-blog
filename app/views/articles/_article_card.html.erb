@@ -1,0 +1,20 @@
+<div class="row justify-content-center">
+    <div class="col-8 mt-4 shadow p-0 mb-5 bg-body-tertiary rounded">
+        <div class="card text-center">
+            <div class="card-header font-italic">
+                by Brian Hoenle
+            </div>
+            <div class="card-body">
+                <h5 class="card-title text-success"><%= link_to article.title, article_path(article), class: 'text-decoration-none text-success' %></h5>
+                <p class="card-text"><%= truncate(article.description, length: 100) %></p>
+                <%= link_to 'Show', article_path(article), class: "btn btn-outline-success" %>
+                <%= link_to 'Edit', edit_article_path(article), class: "btn btn-outline-primary" %>
+                <%= link_to 'Delete', article_path(article), data: { turbo_method: :delete , turbo_confirm: 'Are you sure?' }, class: "btn btn-outline-danger" %>
+            </div>
+            <div class="card-footer text-muted">
+                <small>Created about <%= time_ago_in_words(article.created_at) %> ago,
+                    edited about <%= time_ago_in_words(article.created_at) %> ago</small>
+            </div>
+        </div>
+    </div>
+</div>
