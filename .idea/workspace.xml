@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f60c396b-1781-438b-8e60-f9046cabc2a1" name="Changes" comment="udemy-rails-course-homework-assignment-one Center footer text">
+    <list default="true" id="f60c396b-1781-438b-8e60-f9046cabc2a1" name="Changes" comment="udemy-rails-course-homework-assignment-one remove unneeded container class in home page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/home.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/articles/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +150,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677083442161</updated>
-      <workItem from="1677083443259" duration="26189000" />
+      <workItem from="1677083443259" duration="27364000" />
     </task>
     <task id="LOCAL-00001" summary="udemy-rails-course-homework-assignment-one Add basic header and footer. Adjust for custom.css auto reloads.">
       <created>1677085978331</created>
@@ -228,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677169629862</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="udemy-rails-course-homework-assignment-one remove unneeded container class in home page">
+      <created>1677169961037</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677169961037</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +254,8 @@
     <MESSAGE value="udemy-rails-course-homework-assignment-one Update show articles page to use bootstrap. Update nav to use" />
     <MESSAGE value="udemy-rails-course-homework-assignment-one Style updates to show page." />
     <MESSAGE value="udemy-rails-course-homework-assignment-one Center footer text" />
-    <option name="LAST_COMMIT_MESSAGE" value="udemy-rails-course-homework-assignment-one Center footer text" />
+    <MESSAGE value="udemy-rails-course-homework-assignment-one remove unneeded container class in home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="udemy-rails-course-homework-assignment-one remove unneeded container class in home page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
