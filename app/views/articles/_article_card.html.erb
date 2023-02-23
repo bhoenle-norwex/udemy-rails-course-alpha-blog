@@ -2,7 +2,7 @@
     <div class="col-8 mt-4 shadow p-0 mb-5 bg-body-tertiary rounded">
         <div class="card text-center">
             <div class="card-header font-italic">
-                by Brian Hoenle
+                by <%= article.user.username if article.user %>
             </div>
             <div class="card-body">
                 <% if is_page('articles') %>
