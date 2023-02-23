@@ -1,22 +1,6 @@
 <% flash.each do | name, msg | %>
-    <% alert_class = ''
-       icon_class = ''
-       if name.downcase == 'success'
-         alert_class = 'success'
-         icon_class = 'check-circle-fill'
-       elsif name.downcase == 'notice'
-         alert_class = 'info'
-         icon_class = 'info-circle-fill'
-       elsif name.downcase == 'warning'
-         alert_class = 'warning'
-         icon_class = 'exclamation-triangle-fill'
-       elsif name.downcase == 'error'
-         alert_class = 'danger'
-         icon_class = 'exclamation-triangle-fill'
-       end
-    %>
-    <div class="alert alert-<%= alert_class %> d-flex align-items-center alert-dismissible fade show" role="alert">
-        <i class="bi bi-<%= icon_class %>"></i>
+    <div class="alert alert-<%= get_flash_alert_class(name) %> d-flex align-items-center alert-dismissible fade show" role="alert">
+        <i class="bi bi-<%= get_flash_icon_class(name) %>"></i>
         <div class="ps-3 mt-2">
             <%= name.capitalize %>:: <%= msg %>
         </div>
