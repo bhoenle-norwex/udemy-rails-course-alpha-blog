@@ -31,11 +31,17 @@ module ApplicationHelper
   end
 
   # Returns the "active" class if the current url is the specified action's page
-  def is_active(action)
-    if params[:action] == "index"
-      params[:controller] == action ? "active" : nil
+  def get_active_page_class(action)
+      is_page(action) ? "active" : nil
+  end
+
+  # Returns the "active" class if the current url is the specified action's page
+  def is_page(action)
+    bla = params
+    if params[:action] == "index" || params[:action] == "show"
+      params[:controller] == action
     else
-      params[:action] == action ? "active" : nil
+      params[:action] == action
     end
   end
 

@@ -7,13 +7,13 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                 <li class="nav-item">
-                    <%= link_to "Home", root_path, class: "nav-link #{ is_active('home') }" %>
+                    <%= link_to "Home", root_path, class: "nav-link #{ get_active_page_class('home') }" %>
                 </li>
                 <li class="nav-item">
-                    <%= link_to "Articles", articles_path, class: "nav-link #{ is_active('articles') }" %>
+                    <%= link_to "Articles", articles_path, class: "nav-link #{ get_active_page_class('articles') }" %>
                 </li>
                 <li class="nav-item">
-                    <%= link_to "About", about_path, class: "nav-link #{ is_active('about') }" %>
+                    <%= link_to "About", about_path, class: "nav-link #{ get_active_page_class('about') }" %>
                 </li>
             </ul>
             <form class="d-flex" role="search">
