@@ -38,7 +38,7 @@ module ApplicationHelper
   # Returns the "active" class if the current url is the specified action's page
   def is_page(action)
     bla = params
-    if params[:action] == "index" || params[:action] == "show"
+    if params[:action] == "index"
       params[:controller] == action
     else
       params[:action] == action
