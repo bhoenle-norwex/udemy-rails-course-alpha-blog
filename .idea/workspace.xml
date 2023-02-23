@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f60c396b-1781-438b-8e60-f9046cabc2a1" name="Changes" comment="udemy-rails-course update the article card to reflect the user">
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+    <list default="true" id="f60c396b-1781-438b-8e60-f9046cabc2a1" name="Changes" comment="udemy-rails-course Change the state of the user object (email) to be lowercase (downcase)">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677180609372</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="udemy-rails-course Change the state of the user object (email) to be lowercase (downcase)">
+      <created>1677180771798</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1677180771798</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +292,8 @@
     <MESSAGE value="udemy-rails-course:create-users-table-model Auto generate Users resource." />
     <MESSAGE value="udemy-rails-course:create-users-table-model Add user validations" />
     <MESSAGE value="udemy-rails-course update the article card to reflect the user" />
-    <option name="LAST_COMMIT_MESSAGE" value="udemy-rails-course update the article card to reflect the user" />
+    <MESSAGE value="udemy-rails-course Change the state of the user object (email) to be lowercase (downcase)" />
+    <option name="LAST_COMMIT_MESSAGE" value="udemy-rails-course Change the state of the user object (email) to be lowercase (downcase)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
