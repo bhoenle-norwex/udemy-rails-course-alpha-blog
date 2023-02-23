@@ -4,182 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f60c396b-1781-438b-8e60-f9046cabc2a1" name="Changes" comment="udemy-rails-course-homework-assignment-one Add basic header and footer. Adjust for custom.css auto reloads.">
-      <change beforePath="$PROJECT_DIR$/.idea/alpha-blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/alpha-blog.iml" afterDir="false" />
+    <list default="true" id="f60c396b-1781-438b-8e60-f9046cabc2a1" name="Changes" comment="udemy-rails-course-homework-assignment-one Center footer text">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/builds/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/builds/application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/builds/application.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/builds/application.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/pages/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/home.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.esm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.esm.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.esm.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.esm.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.esm.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.esm.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/alert.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/alert.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/alert.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/base-component.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/base-component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/base-component.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/base-component.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/button.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/button.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/carousel.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/carousel.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/collapse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/collapse.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/collapse.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/data.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/data.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/event-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/event-handler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/event-handler.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/event-handler.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/manipulator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/manipulator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/manipulator.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/manipulator.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/selector-engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/selector-engine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/selector-engine.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dom/selector-engine.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dropdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dropdown.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dropdown.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/modal.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/modal.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/offcanvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/offcanvas.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/offcanvas.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/popover.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/popover.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/popover.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/scrollspy.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/scrollspy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/scrollspy.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/scrollspy.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/tab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/tab.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/tab.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/toast.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/toast.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/toast.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/toast.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/tooltip.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/tooltip.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/tooltip.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/backdrop.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/backdrop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/backdrop.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/backdrop.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/component-functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/component-functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/component-functions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/component-functions.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/config.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/config.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/focustrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/focustrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/focustrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/focustrap.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/sanitizer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/sanitizer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/sanitizer.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/sanitizer.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/scrollbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/scrollbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/scrollbar.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/scrollbar.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/swipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/swipe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/swipe.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/swipe.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/template-factory.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/template-factory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/template-factory.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util/template-factory.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/alert.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/base-component.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/base-component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/collapse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/dom/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/dom/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/dom/event-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/dom/event-handler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/dom/manipulator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/dom/manipulator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/dom/selector-engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/dom/selector-engine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/dropdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/offcanvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/popover.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/scrollspy.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/scrollspy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/tab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/toast.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/toast.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/tooltip.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/backdrop.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/backdrop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/component-functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/component-functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/focustrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/focustrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/sanitizer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/sanitizer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/scrollbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/scrollbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/swipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/swipe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/template-factory.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util/template-factory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_accordion.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_accordion.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_alert.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_button-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_button-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_carousel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_close.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_list-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_maps.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_maps.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_offcanvas.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_offcanvas.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_progress.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_reboot.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_root.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_root.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_tables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap-grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap-reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap-reboot.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap-utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap-utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/forms/_floating-labels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/forms/_floating-labels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/forms/_form-check.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/forms/_form-check.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/forms/_form-control.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/forms/_form-control.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/forms/_form-select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/forms/_form-select.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/forms/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/forms/_input-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/helpers/_colored-links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/helpers/_colored-links.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_alert.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_banner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_caret.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_caret.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_list-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,6 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Ruby.AssetRefParam.STYLESHEETS": "css",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -321,7 +149,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677083442161</updated>
-      <workItem from="1677083443259" duration="8405000" />
+      <workItem from="1677083443259" duration="26189000" />
     </task>
     <task id="LOCAL-00001" summary="udemy-rails-course-homework-assignment-one Add basic header and footer. Adjust for custom.css auto reloads.">
       <created>1677085978331</created>
@@ -330,7 +158,77 @@
       <option name="project" value="LOCAL" />
       <updated>1677085978331</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="udemy-rails-course-homework-assignment-one Adjust links and colors.">
+      <created>1677093128448</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677093128448</updated>
+    </task>
+    <task id="LOCAL-00003" summary="udemy-rails-course-homework-assignment-one convert article index page to a bootstrap friendly layout">
+      <created>1677096999057</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677096999057</updated>
+    </task>
+    <task id="LOCAL-00004" summary="udemy-rails-course-homework-assignment-one convert article edit / update pages to a bootstrap friendly layout">
+      <created>1677158506750</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677158506750</updated>
+    </task>
+    <task id="LOCAL-00005" summary="udemy-rails-course-homework-assignment-one Update the article form to not have column classes on the labels or inputs">
+      <created>1677160280554</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677160280554</updated>
+    </task>
+    <task id="LOCAL-00006" summary="udemy-rails-course-homework-assignment-one Update the styles for form errors to use a bootstrap alert.">
+      <created>1677160727941</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677160727941</updated>
+    </task>
+    <task id="LOCAL-00007" summary="udemy-rails-course-homework-assignment-one Bootstrap flash messages.">
+      <created>1677166282831</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677166282831</updated>
+    </task>
+    <task id="LOCAL-00008" summary="udemy-rails-course-homework-assignment-one Move alert class functionality out of view and into helper">
+      <created>1677166891929</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677166891930</updated>
+    </task>
+    <task id="LOCAL-00009" summary="udemy-rails-course-homework-assignment-one Update show articles page to use bootstrap. Update nav to use">
+      <created>1677168249471</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677168249471</updated>
+    </task>
+    <task id="LOCAL-00010" summary="udemy-rails-course-homework-assignment-one Style updates to show page.">
+      <created>1677169386333</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677169386333</updated>
+    </task>
+    <task id="LOCAL-00011" summary="udemy-rails-course-homework-assignment-one Center footer text">
+      <created>1677169629862</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677169629862</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,9 +236,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="udemy-rails-course-homework-assignment-one Add basic header and footer. Adjust for custom.css auto reloads." />
-    <option name="LAST_COMMIT_MESSAGE" value="udemy-rails-course-homework-assignment-one Add basic header and footer. Adjust for custom.css auto reloads." />
+    <MESSAGE value="udemy-rails-course-homework-assignment-one Adjust links and colors." />
+    <MESSAGE value="udemy-rails-course-homework-assignment-one convert article index page to a bootstrap friendly layout" />
+    <MESSAGE value="udemy-rails-course-homework-assignment-one convert article edit / update pages to a bootstrap friendly layout" />
+    <MESSAGE value="udemy-rails-course-homework-assignment-one Update the article form to not have column classes on the labels or inputs" />
+    <MESSAGE value="udemy-rails-course-homework-assignment-one Update the styles for form errors to use a bootstrap alert." />
+    <MESSAGE value="udemy-rails-course-homework-assignment-one Bootstrap flash messages." />
+    <MESSAGE value="udemy-rails-course-homework-assignment-one Move alert class functionality out of view and into helper" />
+    <MESSAGE value="udemy-rails-course-homework-assignment-one Update show articles page to use bootstrap. Update nav to use" />
+    <MESSAGE value="udemy-rails-course-homework-assignment-one Style updates to show page." />
+    <MESSAGE value="udemy-rails-course-homework-assignment-one Center footer text" />
+    <option name="LAST_COMMIT_MESSAGE" value="udemy-rails-course-homework-assignment-one Center footer text" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/helpers/application_helper.rb</url>
+          <line>4</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/alpha_blog@alpha_blog.rcov" NAME="alpha-blog Coverage Results" MODIFIED="1677092198716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="alpha-blog" />
+    <SUITE FILE_PATH="coverage/alpha_blog@alpha_blog.rcov" NAME="alpha-blog Coverage Results" MODIFIED="1677166727551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="alpha-blog" />
   </component>
 </project>
