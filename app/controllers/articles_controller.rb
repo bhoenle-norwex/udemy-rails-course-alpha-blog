@@ -3,6 +3,8 @@ class ArticlesController < ApplicationController
 
   def create
     @article = Article.new(article_params)
+    # Temporarily setting the user to continue building the app
+    @article.user = User.first
     #render plain: @article.inspect
     if @article.save
       flash[:success] = "Article was successfully saved"
